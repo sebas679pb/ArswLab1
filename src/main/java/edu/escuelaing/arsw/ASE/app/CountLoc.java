@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CountLoc 
 {
     /**
-     * 
+     * Program to count the lines of code from a source file.
      * @param args
      * @throws Exception
      */
