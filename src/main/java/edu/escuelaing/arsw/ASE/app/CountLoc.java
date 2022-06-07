@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 public class CountLoc 
 {
+    /**
+     * 
+     * @param args
+     * @throws Exception
+     */
     public static void main( String[] args ) throws Exception{
         int cont = 0;
         File file = new File(args[1]);
@@ -16,7 +21,14 @@ public class CountLoc
             }
         }
         else if(args[0].equals("loc")){
-            String line = scan.nextLine().strip();
+            while(scan.hasNextLine()){
+                String line = scan.nextLine().strip();
+                if(line.length() > 0){
+                    if(!line.startsWith("*") && !line.startsWith("/")){
+                        cont += 1;
+                    }
+                }
+            }
         }
         System.out.println(cont);
     }
