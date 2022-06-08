@@ -43,7 +43,7 @@ Y tambien se realizo la implementacion de la clase CountLocTest encargada de la 
 mvn test
 ```
 
-[![image.png](https://i.postimg.cc/y8S8M6JT/image.png)](https://postimg.cc/Hrdm5g9J)
+[![image.png](https://i.postimg.cc/zB7LVNR6/image.png)](https://postimg.cc/6276mDcf)
 
 Se realizaron 4 test durante los cuales se comprueba la correcta ejecucion de del conteo phy y loc tanto para archivos como para directorios.
 
