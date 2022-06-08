@@ -10,7 +10,7 @@ import org.junit.*;
 public class CountLocTest {
 
     @Test
-    public void deberiRealizarConteoPhyFunction() {
+    public void deberiaRealizarConteoPhyFunction() {
         try {
             File file = new File("src\\main\\java\\edu\\escuelaing\\arsw\\ASE\\app\\CountLoc.java");
             Scanner scan = new Scanner(file);
@@ -21,7 +21,7 @@ public class CountLocTest {
     }
 
     @Test
-    public void deberiRealizarConteoLocFunction() {
+    public void deberiaRealizarConteoLocFunction() {
         try {
             File file = new File("src\\main\\java\\edu\\escuelaing\\arsw\\ASE\\app\\CountLoc.java");
             Scanner scan = new Scanner(file);
@@ -32,7 +32,7 @@ public class CountLocTest {
     }
 
     @Test
-    public void deberiRealizarConteoPhyDirectorySearch() {
+    public void deberiaRealizarConteoPhyDirectorySearch() {
         try {
             File files = new File("src");
             File[] listFiles = files.listFiles();
@@ -43,7 +43,7 @@ public class CountLocTest {
     }
 
     @Test
-    public void deberiRealizarConteoLocDirectorySearch() {
+    public void deberiaRealizarConteoLocDirectorySearch() {
         try {
             File files = new File("src");
             File[] listFiles = files.listFiles();
